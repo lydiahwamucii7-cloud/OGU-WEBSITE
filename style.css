@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background: local;
+}
+header{
+    background: scroll;
+    color: blue;
+    display: grid;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+}
+logo{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+}
+logo img{
+width:55px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: aqua;
+    margin-left: 20px;
+}
+nav a:hover{
+    color:white;
+}
+hero{
+    min-height:0cm;
+    background:url("../images/campus.jpg")centre/cover;
+    display:flex;
+    align-items:center;
+    padding:60px;
+}
+hero ::content{
+    color: blue;
+    max-width: 650px;
+}
+hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+button{
+    display: inline-block;
+    background: local;
+    color: blueviolet;
+    padding: 12px;
+    text-decoration: wavy;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+welcome{
+    text-align: justify;
+    padding: 50px;
+}
+cards{
+    display: flex;
+    gap: 25px;
+    padding: 40px;
+}
+card{
+    background: white;
+    padding: 30px; ;
+    flex:1;
+    border: radius 8px; 
+    box-shadow: 10px;
+}
+card a{
+    display:inline-block;
+    margin: top 15px;
+}
+footer{
+    background: local;
+    color: black;
+    text-align: center;
+    padding:25px;
+}
+@media(max-width:768;);{
+}
+ header{
+    flex-direction: column;
+    }
+    nav{
+    margin-top: 15px;
+}
+nav a{
+    display: block;
+    margin: 8px;
+}
+hero h1{
+font-size:32px;
+}
+cards{flex-direction:column;}
+.website{
+    font-size:14px;
+    color:black;
+}
+.website p{
+margin:0;
+}
+
+
+
+
+
+
